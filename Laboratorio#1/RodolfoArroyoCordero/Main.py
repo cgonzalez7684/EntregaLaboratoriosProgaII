@@ -12,5 +12,3 @@ limite = int(input("Ingrese el límite para evaluar números pares: "))
 for num in range(1, limite + 1):
     if es_par(num):
         print("El Numero",num,"es par")
-        
-        
