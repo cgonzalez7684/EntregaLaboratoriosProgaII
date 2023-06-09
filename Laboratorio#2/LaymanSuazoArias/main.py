@@ -4,15 +4,12 @@ lado = int(input("Ingrese la longitud del lado del cuadrado: "))
 num_asteriscos = lado
 
 # Bucle while para dibujar el cuadrado
-while lado > 1:
-    # Imprimir una fila de asteriscos
-    print("*" * num_asteriscos)
+while lado > 0:
+    # Imprimir una fila de asteriscos o con espacios en blanco en el medio
+    if lado == num_asteriscos or lado == 1:
+        print("*" * num_asteriscos)
+    else:
+        print("*" + " " * (num_asteriscos - 2) + "*")
 
-    if (lado == 3):
-        continue        
-    
-    if (lado > 5):
-        break
     # Decrementar el valor del lado para la siguiente fila
-    lado = lado + 1
-
+    lado = lado - 1
