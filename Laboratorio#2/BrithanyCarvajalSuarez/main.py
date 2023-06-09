@@ -11,11 +11,6 @@ def es_par(numero):
 
 limite = int(input("Ingrese el límite para evaluar números: "))
 
-print("Números primos hasta el límite", limite, ":")
-for num in range(2, limite + 1):
-    if es_primo(num):
-        print(num)
-
 print("Números pares hasta el límite", limite, ":")
 for num in range(2, limite + 1):
     if es_par(num):
