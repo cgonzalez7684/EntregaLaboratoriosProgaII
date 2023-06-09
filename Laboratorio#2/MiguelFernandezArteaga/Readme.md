@@ -13,4 +13,15 @@
 <!--END_SECTION:badges-->
 
 ## Laboratorio 2
+
+Parte #1
+
+• Crear carpeta dentro de Laborartorio2 de repositorio GitHub compartido por el Profesor, esta carpeta debe ser bajo el siguiente formato ejemplo CarlosGonzalezRomero (Si su carpeta no tiene este formato no se recibe trabajo/laboratorio), y desarrollar el siguiente requerimiento programado con Python 3.11.3
+
+Requerimientos:
+
+1. Programa tipo consola
+2. Se requiere realizar la corrección necesaria en el código fuente para que la rutina de Python anexa imprima un cuadrado de ‘*’ según la longitud solicitada por teclado al usuario.
+3. Código comentado.
+
 [x] Terminado
