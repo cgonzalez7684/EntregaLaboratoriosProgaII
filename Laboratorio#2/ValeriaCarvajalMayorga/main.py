@@ -9,7 +9,7 @@ while lado + 1 > 1:     #---->Aquí aumento uno al lado 1, para que existan la m
     print("  *" * num_asteriscos)  #---->Aquí agrego dos espacios antes del asterísco, para dar forma al cuadrado y que no se vea como rectángulo. 
 
   #  if (lado == 3):
-  #      continue     ---->El continue básicamente interrumpe el ciclo si la condición de manera lo que contuna no se ejecuta y el ciclo vuelve a iterar, es decir, vuelve a recorred desde el inicio.
+  #      continue     ---->El continue básicamente interrumpe el ciclo si la condición de manera lo que contuna no se ejecuta y el ciclo vuelve a iterar, es decir, vuelve a recorrer desde el inicio.
     
   #  if (lado > 5):
   #       break      ---->El break termina el ciclo si la condición se cumple, de manera que ya no se ejecuta más ya que finaliza el ciclo.
