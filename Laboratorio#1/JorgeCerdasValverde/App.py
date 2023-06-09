@@ -5,7 +5,7 @@ def even(limite):
     #Definimos la funcion que busca los numeros pares y los imprime a la consola
     for i in range(1, limite):
         if i % 2 == 0:
-            print(f"Numero par: {i}")
+            print(f"El numero par es: {i}")
 
 #Invocamos la funcion que busca los numeros pares en base al limite
 even(limite)
