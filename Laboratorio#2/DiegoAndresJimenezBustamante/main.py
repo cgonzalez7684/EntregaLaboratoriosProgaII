@@ -10,3 +10,4 @@ while lado > 0:
     # Decrementar el valor del lado para la siguiente fila
     lado = lado - 1
 
+#Arreglo
