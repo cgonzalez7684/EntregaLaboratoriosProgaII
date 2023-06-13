@@ -16,4 +16,4 @@ if lado < 1:
 
 #impresion del cuadrado de asteriscos en filas
 imprimir_cuadrado_filas(lado)
-    
+     
