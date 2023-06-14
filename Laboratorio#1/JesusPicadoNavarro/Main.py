@@ -10,4 +10,4 @@ limit=int(input("Ingrese un numero para emplearlo como limite y evaluar los nume
 print("Números Pares hasta el límite", limit, ":")
 for a in range(1, limit+1):
     if par(a):
-        print(a) 
+        print(a)
