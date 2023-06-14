@@ -9,4 +9,4 @@ while lado > 0:
     print("*" * num_asteriscos)
     
     # Decrementar el valor del lado para la siguiente fila 
-    lado = lado - 1
+    lado = lado - 2
