@@ -11,4 +11,8 @@ while lado > 1:
     if (lado ==3):
         continue
     
-    if(lado )
+    if(lado > 5):
+        break
+    # Decrementar el valor del lado para la siguente fila
+    lado = lado + 1
+    
