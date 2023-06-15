@@ -8,5 +8,6 @@ while lado > 0:
     # Imprimir una fila de asteriscos
     print("*" * num_asteriscos)
 
-    # Decrementar el valor del lado para la siguiente fila
+        # Decrementar el valor del lado para la siguiente fila
     lado = lado - 1
+
