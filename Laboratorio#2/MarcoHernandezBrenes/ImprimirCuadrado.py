@@ -17,6 +17,7 @@ for i in range(lado):
     # Decrementar el valor del lado para la siguiente fila
 # El comando "break" se usa para salir del bucle actual antes de que se complete.  Basicamente el  "break" se activara en la ultima iteración del bucle, 
 # es decir, cuando "i" sea igual a "lado - 1". 
+#Pero la verdad , ya que estamos en la ultima iteración del bucle, "break" no tiene realmente un efecto en la salida del código. 
 
 
 ######## CODIGO MALO #######
