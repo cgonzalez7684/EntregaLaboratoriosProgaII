@@ -1,10 +1,20 @@
-altura = int (input (" Ingrese la altura del cuadrado"))
+lado = int (input (" Ingrese la longitud del cuadrado: "))
  
  # Variable para controlar el numero de asteriscos 
-num_asteriscos = 1
- 
- # Variable para controlar el numero de espacios en cada fila
-num_esapcios = -1
+num_asteriscos = lado
 
 # Bucle while para dibujar el cuadrado
-while altura > 0:
+while lado > 1:
+      # Imprimir fila de asteriscos
+      print("*" * num_asteriscos)
+    
+      if (lado == 3):
+          continue
+      
+      if (lado > 5):
+          break
+    
+      # Decretar el valor del lado para la otra fila
+      lado = lado + 1
+        
+    
