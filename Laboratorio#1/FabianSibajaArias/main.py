@@ -1,16 +1,17 @@
-def es_primo(numero):
-    '''Función para verificar si un número es primo'''
-    if numero < 2:
-        return False
-    for i in range(2, numero):
-        if numero % i == 0:
-            return False
-    return True
+# funcion que me permite saber si el numero es par
+def numero_par(numero):
+    for i in range(1,numero):
+       if numero % 2 == 0:
+           return True
+       return False
+   
 
-limite = int(input("Ingrese el límite para evaluar números primos: "))
+#Ingreso de dato para evaluar si es par o no 
+evaluacion_limite = int(input("Ingrese un numero limite para evaluar: "))
 
-print("Números primos hasta el límite", limite, ":")
-#2 ... 10 2-3-4-5
-for num in range(2, limite + 1):
-    if es_primo(num):
-        print(num)
+#impresion del recorrido que me dice cual es par
+for num in range(1, evaluacion_limite + 1):
+    if numero_par(num):
+        print("Numero par", num)
+    
+    
