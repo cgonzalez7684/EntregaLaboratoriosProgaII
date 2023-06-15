@@ -14,4 +14,3 @@ for num in range(1, evaluacion_limite + 1):
     if numero_par(num):
         print("Numero par", num)
     
-    
