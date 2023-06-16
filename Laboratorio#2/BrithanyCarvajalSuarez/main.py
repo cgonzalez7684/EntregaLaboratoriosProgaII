@@ -1,9 +1,11 @@
-def es_par(numero):
-    return numero % 2 == 0
+lado = int(input("Ingrese la longitud del lado del cuadrado: "))
 
-limite = int(input("Ingrese el límite para evaluar números: "))
+numero_asteriscos = lado
 
-print("Números pares hasta el límite", limite, ":")
-for num in range(2, limite + 1):
-    if es_par(num):
-        print(num)
+while lado > 0:
+    print("* " * numero_asteriscos)
+
+    if lado <= 1:
+        break
+
+    lado = lado - 1
