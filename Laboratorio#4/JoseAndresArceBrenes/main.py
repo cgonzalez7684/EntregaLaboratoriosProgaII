@@ -29,7 +29,7 @@ while True:
     #Opcion 4
     elif i == 4:
         break
-    
+    #Opcion en caso de error del usuario
     else:
         print ("Opcion no valida")
         continue 

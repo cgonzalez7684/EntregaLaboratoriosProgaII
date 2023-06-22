@@ -10,5 +10,5 @@ etiqueta = "Elevar {0} a la potencia {1} da como resultado {3}"
 
 """Impresion del resultado con el cambio corregido
 Anteriormente era "2,2" que daba error"""
-
+#Impresion
 print (etiqueta.format(2,3,resultado))
