@@ -26,31 +26,31 @@ def main():
     while True:
         # aca esta el menu
         print("Menú:")
-        print("1. Contar letras 'a'")
-        print("2. Reemplazar texto")
-        print("3. Convertir a mayúsculas")
-        print("4. Salir")
+        print("a. Contar letras 'a'")
+        print("b. Reemplazar texto")
+        print("c. Convertir a mayúsculas")
+        print("s. Salir")
 
         opcion = input("Ingrese el numero de opcion: ")
 
-        if opcion == '1':
+        if opcion == 'a':
             # esto es para contar las letras 'a'
             cantidad_a = contar_letras_a(cadena)
             print(f"La cantidad de letras 'a' es: {cantidad_a}\n")
 
-        elif opcion == '2':
+        elif opcion == 'b':
             # esto es para reemplazar texto
             texto = input("Ingrese un texto: ")
             nuevo_texto = reemplazar_texto(texto)
             print(f"El texto modificado es: {nuevo_texto}\n")
 
-        elif opcion == '3':
+        elif opcion == 'c':
             # esta es la opcion para convertir a mayusculas
             texto = input("Ingrese un texto: ")
             texto_mayusculas = convertir_a_mayusculas(texto)
             print(f"El texto en mayusculas es: {texto_mayusculas}\n")
 
-        elif opcion == '4':
+        elif opcion == 's':
             # esto es para salir del programa
             print("Hasta luego :v")
             break
