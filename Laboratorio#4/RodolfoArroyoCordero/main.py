@@ -28,7 +28,7 @@ while True:
     2-Validar si se encuentra 'es' en un texto.\n
     3-Regresar Texto en mayuscula.\n
     4-Salir\n
-    ---------------------------\n''' ))
+    --------------------------\n''' ))
     #Se utiliza 'isdigit' para validar que el texto ingresado sea un numero
     if (not(menu.isdigit())):
         print("Escoga numero por favor:")
