@@ -19,8 +19,7 @@ def retornarM(palabra):
     mayuscula=palabra.upper
     print("Se imprime el texto: \n", mayuscula)
 
-opc=0
-while (opc!=4):
+while True:
     """Se utiliza un menu para facilitar al usuario la opcion a escoger"""
     menu=(input('''********MENU********
     Seleccione la opcion a elegir
@@ -45,7 +44,7 @@ while (opc!=4):
         print(retornarM(palabra))
     elif i==4:
         print("Nos vemos")
-        opc=4
+        break
     else:
         print("Valor ingresado no valido")
         continue
