@@ -1,3 +1,4 @@
+#PROFE ESTE ES EL LAB 4, ME EQUIVOQUE AL ENVIARLE EL MENSAJE.
 def contar_letras_a(cadena):
     contador = 0
     for letra in cadena:
