@@ -44,7 +44,7 @@ def calcular_total_frutas(): # creo una funcion que cuente y muestre el total de
     cantidad_frutas = len(inventario)
     print("La cantidad de frutas que hay en el inventario son: {0}".format(cantidad_frutas),"\n")
     
-def eliminar_fruta():
+def eliminar_fruta(): # creo un metodo que mediante el nombre de la elimino y la cantidad que el usuario desee si hay mas de 1
     fruta = input("Ingrese el nombre de la fruta que desea eliminar: ")
     numerico = fruta.isnumeric() # uso la funcion isnumeric que me dice si lo que digito es numerico (esto para darle mas funcionabilidad)
     if numerico:
@@ -86,6 +86,3 @@ def datos(): # creo una funcion que me captura los detos que le pido al usuario 
             print("Opcion invalia debe ingresar una de las opciones del menu","\n")
         else:
             break
-
-
-
