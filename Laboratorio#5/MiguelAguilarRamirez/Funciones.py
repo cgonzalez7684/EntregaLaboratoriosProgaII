@@ -17,7 +17,7 @@ def agregar_fruta(): # creo una funcion que solicite al usuario una fruta y agre
         inventario.append(fruta)
         print("\n")
     
-def mostrar_invantario():
+def mostrar_invantario(): # creo una funcion que me muestre el inventario 
     cantidad_frutas = len(inventario) # uso la funcion len para saber la cantidad de elementos de la lista
     if cantidad_frutas <= 0:
         print("El inventario se encuestra vacio","\n")
