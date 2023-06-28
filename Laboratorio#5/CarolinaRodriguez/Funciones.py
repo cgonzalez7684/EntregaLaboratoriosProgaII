@@ -2,8 +2,8 @@ InventarioFrutas = []
 
 def agregar_fruta():
     
-    AgregarFruta = input("Ingrese la fruta")
-    InventarioFrutas.insert(AgregarFruta)
+    AgregarFruta = input("Ingrese la fruta: ")
+    InventarioFrutas.append(AgregarFruta)
     
 def mostrar_inventario():
     
@@ -11,7 +11,7 @@ def mostrar_inventario():
     
 def buscar_fruta_por_nombre():
     
-    Busca = input("Ingrese el nombre de la fruta a buscar: ")
+    Busca = input("Ingrese el nombre de la fruta a buscar: " )
     Encuentra = Busca in InventarioFrutas
     print("Busca {0} en el inventario: Respuesta {1}".format(Busca,Encuentra))
     

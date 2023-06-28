@@ -10,10 +10,10 @@ def menu():
  
  while True:
      
-    numero = input("Digite una opción")
+    numero = input("Digite una opción: ")
     
     if (not(numero.isdigit())):
-        print("Digite una opción")
+        print("Digite una opción: ")
         continue
     option = int(numero)
     
@@ -42,6 +42,6 @@ def menu():
     else:
         print("Opción no valida")
         
-    if __name__ == '__main__':
-        menu()
+if __name__ == '__main__':
+    menu()
 
