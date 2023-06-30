@@ -1,5 +1,6 @@
 inventario = ["Pera","Uva"]
 
+#Menú del usuario
 print("modificar el inventario: Agregar fruta")
 print("ver el inventario digite: inventario")
 print("Para buscar una fruta: Buscar")
@@ -8,6 +9,7 @@ print("Digite Salir para terminar el programa\n")
 
 while True: 
             opcion = input("Digite opcion: ")
+            #aplicamos el metodo isdigit para determinar si el texto ingresado es un dato numerico
             if (not(opcion.isdigit())):
                 print("..") 
             n = str(opcion)       
