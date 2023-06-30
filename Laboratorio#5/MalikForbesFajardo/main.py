@@ -35,7 +35,7 @@ def eliminar_fruta ():
     if nombrefruta not in inventario :
             print("La fruta no se encuentra en el inventario")
     
-    if inventario[frutabuscada] >= 0 :
+    if inventario[frutabuscada] < 0 :
          del inventario[frutabuscada]
          print("La fruta se elimino")
     
