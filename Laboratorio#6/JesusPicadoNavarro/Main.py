@@ -5,11 +5,11 @@ def agregarvuelo():#define la funcion de agregar vuelo]\
     vuelos.append(vuelonew)#agrega el vuelo por el usuario
 
 def mostrarvuelos():
-    for vuel in vuelos:#muentra en inventrio de frutas agregadas por el usuario
+    for vuel in vuelos:#muentra en la lista de vuelos
         print(vuel)
        
     
-def buscarvuelo(): #busca la fruta en el inventario
+def buscarvuelo(): #busca el vuelo
     busq=input(str("\n Dijite el numero del vuelo a buscar: "))
     busq1= busq in vuelos
     if busq1 == True:#aca realiza la comparacion de lo buscado con lo que hay en la lista 
@@ -70,7 +70,7 @@ try:
         if nop==1: 
                     agregarvuelo()
         elif nop==2:
-                print("\n vuelos en espera\n")
+                print("\n El vuelo en espera es el: \n")
                 mostrarvuelos()
         elif nop==3:
                 buscarvuelo()
