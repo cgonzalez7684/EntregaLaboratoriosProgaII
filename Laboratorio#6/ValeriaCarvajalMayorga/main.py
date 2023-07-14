@@ -12,7 +12,7 @@ def mostrar_lista (avion):
     for vuelo in avion:
         print(vuelo)
     print("\n")
-#Función para verificar si el primer avión en la lista ya sale de vuelo y eliminarlo de la lista   
+#Método para verificar si el primer avión en la lista ya sale de vuelo y eliminarlo de la lista   
 def salida(avion):
     print("El primer avión de la lista es {0}. ¿Desea registrar su salida?".format(avion [0]))
     print("Presione 1 para confirmar o 0 para denegar")
