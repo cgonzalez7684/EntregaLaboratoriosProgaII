@@ -68,4 +68,4 @@ while(ejecutando):
         mostrar_opciones()
         opcion = input("Ingrese una opcion: ")
 
-         
+     
