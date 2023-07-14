@@ -47,7 +47,7 @@ def mostrar_opciones():
         print("Opcion 5. Mostrar la cantidad de aviones en la lista de espera")
         print("Opcion 6. Salir")
 
-#mostrar_opciones()
+mostrar_opciones()
 
 while(ejecutando):
     opcion = input("Ingrese una opcion: ")
