@@ -1,7 +1,7 @@
 #Creo una lista vacía para poder agregar los número de vuelos
 avion=[]
 
-#Función para agregar aviones por su número de vuelo
+#Método para agregar aviones por su número de vuelo
 def agregar (avion):
     vuelo = input("Ingrese número de vuelo: \n")
     avion.append(vuelo)
