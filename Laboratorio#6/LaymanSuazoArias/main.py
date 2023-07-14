@@ -17,21 +17,27 @@ def Menu():
         
         i = int(opc)
         if i == 1:
+            print("")
             agregar_avion()
             print("")
         elif i == 2:
+            print("")
             mostrar_lista_de_espera()
             print("")
         elif i == 3:
+            print("")
             buscar_avion_por_numero()
             print("")
         elif i == 4:
+            print("")
             eliminar_avion()
             print("")
         elif i ==5:
+            print("")
             calcular_total_aviones()
             print("")
         elif i ==6:
+            print("")
             print("Saliendo del sistema de control de aviones.")
             break
         else:
