@@ -1,6 +1,6 @@
 import funciones
 
-#Se crea el menu para el sistema
+#Se crea el menu para el sistema.
 def Main():
     
     try:
