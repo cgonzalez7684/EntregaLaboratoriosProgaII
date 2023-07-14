@@ -19,7 +19,6 @@ def buscarV():
     busq=input(str("\n Dijite el numero de vuelo que desea buscar: "))
     busq1= busq in listaV
     if busq1 == True:
-       
         for avion in listaV:
             
             if avion == busq:
@@ -54,19 +53,19 @@ while True:
         if (not(opc.isdigit())):
             print("Debe digitar un numero ")
             continue
-        nop=int(opc)
-        if nop==1: 
-                    agregarV()
-        elif nop==2:
+        s=int(opc)
+        if s==1: 
+                agregarV()
+        elif s==2:
                 mostrarV()
-        elif nop==3:
+        elif s==3:
                 buscarV()
-        elif nop==4:
+        elif s==4:
                 contV()
-        elif nop==5:
+        elif s==5:
                 eliminarV()
-        elif nop ==6:
-            print("\nSaliendo del programa")
+        elif s==6:
+            print("\nPrograma finalizado")
             break          
         else:
             print("\nOpcion invalida")
