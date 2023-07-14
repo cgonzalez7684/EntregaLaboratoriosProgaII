@@ -14,6 +14,11 @@ def mostrar_lista(lista_aviones):
         print("Lista de aviones:")
         for i, avion in enumerate(lista_aviones, start=1):
             print(f"{i}. Avión # {avion}")
+            
+#Funcion mostrar cantidad
+def mostrar_cantidad(lista_aviones):
+    cantidad = len(lista_aviones)
+    print(f"La cantidad total de aviones en la lista es de: {cantidad}")
 
 #Funcion eliminar
 def eliminar_avion(lista_aviones, num_vuelo):
@@ -30,11 +35,6 @@ def buscar_avion(lista_aviones, num_vuelo):
         print(f"El avión {num_vuelo} se encuentra en la posición {posicion} de la lista.")
     else:
         print("El avión no se encuentra en la lista.")
-
-#Funcion mostrar cantidad
-def mostrar_cantidad(lista_aviones):
-    cantidad = len(lista_aviones)
-    print(f"La cantidad total de aviones en la lista es de: {cantidad}")
 
 #Bucle Menu
 while True:
