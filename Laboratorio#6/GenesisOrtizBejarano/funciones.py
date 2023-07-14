@@ -1,7 +1,6 @@
 lista_espera = [] 
 
-
-#Agregar los aviones a la lista de espera
+#Agregar los aviones a la lista de espera.
 def agregar_avion():
     vuelo = input("Ingresa el número de vuelo del avión a agregar: ").upper()
     #Verifica si el vuelo esta dentro de la lista si no esta lo agrega
