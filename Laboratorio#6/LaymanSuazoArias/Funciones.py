@@ -40,4 +40,3 @@ def eliminar_avion():
         print(f"El avión {numero} ha sido eliminado de la lista de espera")
     else:
         print(f"No hay ningún avión con el número {numero} en la lista de espera")
-
