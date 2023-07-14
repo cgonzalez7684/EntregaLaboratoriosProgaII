@@ -44,7 +44,7 @@ try:
         elif i ==4:
             print("Se cierra el programa")  #para cerrar sistemma del todo
             break
-        else: 
+        else: #cuando digita algo mas de las opciones
             print('Opcion invalida')
             continue 
         
