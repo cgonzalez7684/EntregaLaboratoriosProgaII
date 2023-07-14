@@ -6,7 +6,7 @@ def agregar (avion):
     vuelo = input("Ingrese número de vuelo: \n")
     avion.append(vuelo)
 
-#For simple para recorrer la lista de aviones/vuelos   
+#Método para recorrer y mostar la lista de aviones/vuelos   
 def mostrar_lista (avion):
     print("--------------------Lista de aviones en espera de despegue--------------------")
     for vuelo in avion:
